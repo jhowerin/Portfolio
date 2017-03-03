@@ -59,7 +59,7 @@
         </OL>
         The complete GET request is Prefix + Endpoints + Parameters
         </blockquote>
-        <blockquote>Let's look at the <b>tops</b> category. The tops category has numberous attributes and parameters and at a minimum you must provide a stock symbol. For example, with the symbol aapl (Apple Computers), the GET request will look like the following:<a href="https://api.iextrading.com/1.0/tops/?symbols=aapl"  target="_blank">https://api.iextrading.com/1.0/tops/?symbols=aapl</a>. You can filter the results by adding in a filter parameter that you can use to determine which JSON key/value pairs you want to see. So, if you want to only see the last traded stock price, you can use filter=lastSalePrice. The complete URL would be <a href="https://api.iextrading.com/1.0/tops/?symbols=aapl&filter=lastSalePrice" target="_blank">https://api.iextrading.com/1.0/tops/?symbols=aapl&filter=lastSalePrice</a>. With this approach, you can access all of the publically available stock information provided by IEX.
+        <blockquote>Let's look at the <b>tops</b> category. The tops category has numerous attributes and parameters and at a minimum you must provide a stock symbol. For example, with the symbol aapl (Apple Computers), the GET request will look like the following:<a href="https://api.iextrading.com/1.0/tops/?symbols=aapl"  target="_blank">https://api.iextrading.com/1.0/tops/?symbols=aapl</a>. You can filter the results by adding in a filter parameter that you can use to determine which JSON key/value pairs you want to see. So, if you want to only see the last traded stock price, you can use filter=lastSalePrice. The complete URL would be <a href="https://api.iextrading.com/1.0/tops/?symbols=aapl&filter=lastSalePrice" target="_blank">https://api.iextrading.com/1.0/tops/?symbols=aapl&filter=lastSalePrice</a>. With this approach, you can access all of the publically available stock information provided by IEX.
         </blockquote>
         <blockquote>
           <table id="t01">
@@ -145,6 +145,9 @@
     <div class="row">
       <div class="col-md-12">
         <h2>Real Time Stock Quotes</h2>
+        <blockquote>
+          This engine uses the the above GET request syntax and shows 4 different parameters.
+        </blockquote>>
             <script src = indexStocks.js> 
             </script>
             <div class="container">
